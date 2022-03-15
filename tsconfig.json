@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "module": "ES2020",
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "esModuleInterop": true,
+    "strictNullChecks": false,
+    "strictFunctionTypes": false,
+    "moduleResolution": "Node",
+    "types": ["jest", "node"],
+    "lib": [
+      "es5",
+      "es2020.promise",
+      "es2017.object",
+      "dom",
+      "scripthost",
+      "es2015",
+      "es2015.collection"
+    ] /* Specify library files to be included in the compilation. */,
+    "declaration": true /* Generates corresponding '.d.ts' file. */,
+    "outDir": "./src/main/resources/testframework/ts-dist" /* Redirect output structure to the directory. */,
+    "importHelpers": true /* Import emit helpers from 'tslib'. */,
+    "downlevelIteration": true /* Provide full support for iterables in 'for-of', spread, and destructuring when targeting 'ES5' or 'ES3'. */,
+    "strict": true /* Enable all strict type-checking options. */,
+    "strictBindCallApply": true /* Enable strict 'bind', 'call', and 'apply' methods on functions. */,
+    "alwaysStrict": true /* Parse in strict mode and emit "use strict" for each source file. */,
+    "noUnusedLocals": true /* Report errors on unused locals. */,
+    "noUnusedParameters": true /* Report errors on unused parameters. */,
+    "noImplicitReturns": true /* Report error when not all code paths in function return a value. */,
+    "noFallthroughCasesInSwitch": true /* Report errors for fallthrough cases in switch statement. */,
+    "noImplicitOverride": true /* Ensure overriding members in derived classes are marked with an 'override' modifier. */,
+    "baseUrl": "./" /* Base directory to resolve non-absolute module names. */,
+    "skipLibCheck": true /* Skip type checking of declaration files. */,
+    "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */
+  },
+  "include": [
+    "src/**/*",
+  ],
+  "exclude": ["node_modules"]
+}
